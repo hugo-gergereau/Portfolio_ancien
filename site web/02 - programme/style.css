@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(51, 49, 49);
+    color: rgb(255, 255, 255);
+}
+/* MENU DE NAVIGATION ENTRE LES PAGES */
+nav{
+    width: 100%;
+    margin: 0px auto 40px auto;
+    background-color: rgb(80, 78, 78);
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block; 
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;
+    padding: 5px 0px;
+}
+
+nav a:hover{
+    color: rgb(0, 162, 255);
+    border-bottom: 2px solid rgb(4, 8, 255);
+}
+
+
+.grid-cv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.CV {
+    grid-column: 3;
+    grid-row: 5;
+    width: 21cm; 
+    height: 29.7cm;
+    
+}
+
+
+
+
+.CV-LIEN{
+    color: rgb(255, 0, 0);
+    
+    grid-column: 500 ;
+    grid-row: 10;
+    
+
+}
+
+.a{
+    color: #ffffff;
+}
+
+/* lien visiter*/
+
+a:visited{
+    color: #ffffff;
+}
+
+  /* souris sur le lien */
+a:hover{
+    color: rgb(29, 32, 218);;
+}
