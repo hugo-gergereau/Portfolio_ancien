@@ -1,0 +1,32 @@
+.situation-pro-1 {
+    width: 14,8cm; 
+    height: 21cm;
+    
+}
+
+.info-situation-pro-1{
+    font-size: 20px;
+    
+    
+}
+
+.situation-pro-2 {
+    width: 14,8cm; 
+    height: 21cm;
+   
+}
+
+.info-situation-pro-2{
+    font-size: 20px;
+    
+}
+
+.box-parent{
+    display: flex;
+    margin-top: -30px;
+    width: 34cm;
+    height: 25cm;
+    
+}
+
+

@@ -1,0 +1,86 @@
+.box-parent{
+    display: flex;
+    margin-top: -30px;
+    width: 800px;
+    height: 800px;
+    
+    
+}
+
+.image-tel{
+    width: 90px; 
+    height: 90px;
+    position: absolute;
+    margin-top: 0px;
+    left: 0px;
+    
+}
+
+.image-mail{
+    width: 90px; 
+    height: 90px;
+    position: absolute;
+    margin-top: 100px ;
+    left: 0px ;
+}
+
+
+.image-adresse{
+    width: 90px; 
+    height: 90px;
+    position: absolute;
+    margin-top: 200px;
+    left:0px ;
+}
+
+
+.image-linkedin{
+    width: 90px; 
+    height: 90px;
+    position: absolute;
+    margin-top: 300px; ;
+    left: 0px;  
+}
+
+
+
+.texte-tel{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 35px; ;
+    left: 90px; 
+    
+}
+
+.texte-mail{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 133px; ;
+    left: 90px; 
+    
+}
+
+.texte-adresse{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 233px; ;
+    left: 90px;      
+}
+
+.texte-linkedin{
+    font-size: 25px;
+    position: absolute;
+    margin-top: 333px; ;
+    left: 90px; 
+    
+}
+
+
+
+
+.image-contact{
+    position: absolute;
+    margin-top: 300px; ;
+    left: 0px; 
+    
+}
