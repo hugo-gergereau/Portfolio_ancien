@@ -1,8 +1,10 @@
 .box-parent{
+    position: absolute;
     display: flex;
-    margin-top: -30px;
-    width: 800px;
-    height: 800px;
+    width: 600px;
+    height: 450px;
+    background: salmon;
+    
     
     
 }
@@ -84,3 +86,14 @@
     left: 0px; 
     
 }
+
+
+.box-parent-formulaire{
+    position: absolute;
+    display: flex;
+    left: 620px; 
+    width: 650px;
+    height: 450px;
+    background: salmon;
+}
+

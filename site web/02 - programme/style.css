@@ -1,15 +1,16 @@
 body{
     background-color: rgb(51, 49, 49);
     color: rgb(255, 255, 255);
+    overflow-x:hidden;
 }
 
 
 /* MENU DE NAVIGATION ENTRE LES PAGES */
 nav{
     width: 100%;
-    margin: 0px auto 40px auto;
     background-color: rgb(80, 78, 78);
     position: sticky;
+    z-index: 20;
     top: 0px;
 }
 

@@ -22,11 +22,18 @@
 }
 
 .box-parent{
+    position: absolute;
     display: flex;
-    margin-top: -30px;
-    width: 34cm;
-    height: 25cm;
+    margin-top:  0%;
+    width: 24cm;
+    height: 15cm;
     
 }
 
-
+@media screen and (min-width: 640px) {
+    .box-parent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
