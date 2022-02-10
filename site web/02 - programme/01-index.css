@@ -1,29 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 
 .image-baniere{
     overflow: hidden;
     display: flex;
-    position:absolute;
-    background: salmon;    
+    position:absolute;  
     z-index: -1;
     left: 0px;
     width: 100%;
+    height: ;
+    
 }
 
-p{
-    margin: 25px    ;
+.texte-accueil{
+  display: flex;
+  position: relative;
+  font-size: 30px;
+  margin-top: 150px;
 }
+
 
 .baniere{
     overflow: hidden;
     background: no-repeat url("03-resource/baniere.png");
+    height: 200px;
     display: flex;
     justify-content: center;
     flex-direction:column;
     align-items:center;
-    font-size: 50px;
+    font-size: 35px;
     
     
 }
@@ -39,10 +47,11 @@ p{
     -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     position: absolute;
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     justify-content: space-between;
     left: 70%;
+  
 }
 
 /* ----------------------------------------------
@@ -85,14 +94,14 @@ p{
   
 
 .box-mess-accueil{
-    font-family: 'Courgette', cursive;
+    font-family: 'Roboto', sans-serif;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     position: relative;
     display: flex;
-    width: 1800px;
+    width: 1920px;
     height: 400px;
-    margin-top: 2%;
+    margin-top: -70px;
     font-size: 35px;
     text-align: start;
 }
@@ -138,7 +147,7 @@ p{
   
 
 h1{
-    font-family: 'Indie Flower', cursive;
+  font-family: 'Roboto', sans-serif;
     font-size: 40px;
     font-weight: bold;
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
