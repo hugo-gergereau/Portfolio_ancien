@@ -2,6 +2,7 @@ body{
     background-color: rgb(51, 49, 49);
     color: rgb(255, 255, 255);
     overflow-x:hidden;
+    margin: 0%;
 }
 
 
@@ -107,6 +108,7 @@ a:hover{
     align-items:center;
     font-size: 35px;
     width: 1920px;
+    margin: 0%;
     
     
 }
