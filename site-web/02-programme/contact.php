@@ -8,8 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <title>Document</title>
 
-
-    <!-- <?php
+<?php
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
@@ -42,7 +41,7 @@ if (isset($_POST['formvalid'])) : //envoi du formulaire
     
 endif;
 
-?> -->
+?>
 
 <body>
     <nav>
