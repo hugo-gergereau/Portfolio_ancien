@@ -36,7 +36,7 @@
 
 
     if (isset($_POST['formvalid'])) : //envoi du formulaire 
-        header('location:a.php');
+        
         $mail = new PHPMailer(); //envoi Email LienToKen
         $mail->Host = "smtp.office365.com"; //SMTP server
         $mail->Port = "587"; //SMTP Port
@@ -47,7 +47,7 @@
         $mail->Password = "H.ugo/2201 "; //mon mdp
         $mail->setFrom('h.gergereau@insta.fr', 'no-reply'); // email de l envoyeur
         $mail->Subject = 'mail coucou';
-        $mail->addAddress("serveur.hugo.gergereau@gmail.com"); //email Ã  envoyer ici $email est poser------------------
+        $mail->addAddress("h.gergereau@insta.fr"); //email Ã  envoyer ici $email est poser------------------
         // $mail->AddEmbeddedImage('src/images/logo-insta-1.jpg', 'logo_2u');
         // $mail->AddEmbeddedImage('src/images/linkedin.jpg', 'logo_3u');
         // $mail->AddEmbeddedImage('src/images/twitter.jpg', 'logo_4u');
