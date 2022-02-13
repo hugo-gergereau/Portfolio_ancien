@@ -44,7 +44,7 @@
         $mail->isSMTP();
         $mail->SMTPAuth = true;
         $mail->Username = "serveur.hugo.gergereau@gmail.com"; //mon email
-        $mail->Password = "H.ugo/2201 "; //mon mdp
+        $mail->Password = "hugo22012003"; //mon mdp
         $mail->setFrom('serveur.hugo.gergereau@gmail.com', 'no-reply'); // email de l envoyeur
         $mail->Subject = 'mail coucou';
         $mail->addAddress("serveur.hugo.gergereau@gmail.com"); //email Ã  envoyer ici $email est poser------------------
