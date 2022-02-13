@@ -39,7 +39,7 @@
         
         $mail = new PHPMailer(); //envoi Email LienToKen
         $mail->Host = "smtp.gmail.com"; //SMTP server
-        $mail->Port = "587"; //SMTP Port
+        $mail->Port = "993"; //SMTP Port
         $mail->SMTPSecure = 'tls';
         $mail->isSMTP();
         $mail->SMTPAuth = true;
