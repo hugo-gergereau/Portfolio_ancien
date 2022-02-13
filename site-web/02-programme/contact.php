@@ -38,14 +38,14 @@
     if (isset($_POST['formvalid'])) : //envoi du formulaire 
         
         $mail = new PHPMailer(); //envoi Email LienToKen
-        $mail->Host = "smtp.office365.com"; //SMTP server
+        $mail->Host = "smtp.gmail.com"; //SMTP server
         $mail->Port = "587"; //SMTP Port
         $mail->SMTPSecure = 'tls';
         $mail->isSMTP();
         $mail->SMTPAuth = true;
-        $mail->Username = "h.gergereau@insta.fr"; //mon email
+        $mail->Username = "serveur.hugo.gergereau@gmail.com"; //mon email
         $mail->Password = "H.ugo/2201 "; //mon mdp
-        $mail->setFrom('h.gergereau@insta.fr', 'no-reply'); // email de l envoyeur
+        $mail->setFrom('serveur.hugo.gergereau@gmail.com', 'no-reply'); // email de l envoyeur
         $mail->Subject = 'mail coucou';
         $mail->addAddress("serveur.hugo.gergereau@gmail.com"); //email Ã  envoyer ici $email est poser------------------
         // $mail->AddEmbeddedImage('src/images/logo-insta-1.jpg', 'logo_2u');
