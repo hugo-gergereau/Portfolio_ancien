@@ -93,11 +93,24 @@ a:hover{
     
 }
 
+.titre-accueil{
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  text-shadow: black 0.1em 0.1em 0.1em;
+  margin-left: 2%;
+  width: 800px;
+}
+
+
 .texte-accueil{
+  margin-left: 1%;
   display: flex;
   position: relative;
   font-size: 30px;
-  margin-top: 150px;
+  
   text-shadow: black 0.1em 0.1em 0.2em
 }
 
@@ -128,7 +141,8 @@ a:hover{
     width: 400px;
     height: 250px;
     justify-content: space-between;
-    left: 70%;
+    left: 79%;
+    
   
 }
 
@@ -177,12 +191,13 @@ a:hover{
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     position: relative;
     display: flex;
-    width: 1920px;
+    width: 1500px;
     height: 400px;
     margin-top: -70px;
     font-size: 35px;
     text-align: start;
-    text-shadow: black 0.5em 0.5em 0.5em
+    text-shadow: black 0.5em 0.5em 0.5em;
+    margin: 0%;
 }
 
 
@@ -225,15 +240,12 @@ a:hover{
   }
   
 
-h1{
-  font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    font-weight: bold;
-    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    text-shadow: black 0.1em 0.1em 0.1em
-}
-
+@media screen and (max-width: 600px) {
+   .image-accueil{
+    margin-left: 800px;
+    } 
+     
+} 
 
 
 
@@ -296,7 +308,7 @@ h1{
 
 
 
-/*                                                       --------------------------------------SITUATION PRO--------------------------------------*/
+/*                                                       --------------------------------------Épreuve E4--------------------------------------*/
 
 .situation-pro-1 {
     margin-left: 0;
@@ -344,7 +356,7 @@ h1{
 
 
 
-
+/*                                                       -------------------------------------ÉPREUVE E5--------------------------------------*/
 
 
 
