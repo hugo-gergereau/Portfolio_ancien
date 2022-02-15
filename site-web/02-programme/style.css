@@ -6,6 +6,17 @@ body{
 }
 
 
+/*                                                --------------------------------------RESPONSIVE--------------------------------------  */
+
+
+@media screen and (max-width: 600px) {
+  .box-parent{
+  flex-direction: column;
+  }
+}
+
+
+
  /*                                                --------------------------------------MENU DE NAVIGATION ENTRE LES PAGES--------------------------------------  */
 nav{
     width: 100%;
@@ -22,7 +33,7 @@ nav ul{
 
 nav li{
     float: left;
-    width: 15%;
+    width: 14.2%;
     text-align: center;
 }
 
@@ -102,6 +113,7 @@ a:hover{
   text-shadow: black 0.1em 0.1em 0.1em;
   margin-left: 2%;
   width: 800px;
+  margin-top: 5%;
 }
 
 
@@ -110,8 +122,8 @@ a:hover{
   display: flex;
   position: relative;
   font-size: 30px;
-  
-  text-shadow: black 0.1em 0.1em 0.2em
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-top: 10%;
 }
 
 
@@ -142,6 +154,7 @@ a:hover{
     height: 250px;
     justify-content: space-between;
     left: 79%;
+    margin-top: 5%;
     
   
 }
@@ -348,11 +361,7 @@ h1{
     z-index: 10;   
 }
 
-@media screen and (max-width: 600px) {
-    .box-parent{
-    flex-direction: column;
-    }
-}
+
 
 
 

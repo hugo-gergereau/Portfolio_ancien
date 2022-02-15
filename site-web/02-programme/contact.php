@@ -38,8 +38,8 @@
     if (isset($_POST['formvalid'])) : //envoi du formulaire 
         
         $mail = new PHPMailer(); //envoi Email LienToKen
-        $mail->Host = "smtp.gmail.com"; //SMTP server
-        $mail->Port = "993"; //SMTP Port
+        $mail->Host = "smtp-relay.gmail.com"; //SMTP server
+        $mail->Port = "587"; //SMTP Port  
         $mail->SMTPSecure = 'tls';
         $mail->isSMTP();
         $mail->SMTPAuth = true;
