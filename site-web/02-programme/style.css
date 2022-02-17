@@ -19,27 +19,7 @@ body{
 
 
 
- @media screen and (max-width: 600px) {
-  .box-parent{
-  flex-direction: column;
-  
-  }
-} 
-
  /*                                                --------------------------------------MENU DE NAVIGATION ENTRE LES PAGES--------------------------------------  */
-
-
-
-.lien{
-    
-    color: #fff;
-}
-
-.lien-nom{
-    margin-top: 11%;
-    color: #fff;
-}
-
 
 
  *,
@@ -50,70 +30,74 @@ body{
      margin: 0;
  }
  
- /* .html{
-     font-size: 62.5%;
- } */
+ 
  
  .navbar input[type="checkbox"],
  .navbar .hamburger-lines{
      display: none;
-     color: rgb(0, 0, 0);
-     
  }
  
-
  .container{
+     max-width: 1200px;
      width: 100%;
-    
-     background-color: rgb(51, 49, 49);
+     margin: auto;
  }
  
  .navbar{
-     box-shadow: 10px 10px 70px 0.2px rgb(0, 0, 0);
+     box-shadow: 0px 10px 45px 10px rgb(0, 0, 0);
      position: sticky;
      width: 100%;
+     background-color: rgb(51, 49, 49);
+     opacity: 0.85;
      z-index: 100;
-     margin-top: 0%;
  }
  
  .navbar-container{
      display: flex;
      justify-content: space-between;
-     height: 55px;
+     height: 70px;
+     width: 1920px;
      align-items: center;
  }
  
  .menu-items{
-    
-    width: 1920px;
-    display: flex;
-    color: rgb(51, 49, 49);
+     order: 2;
+     display: flex;
+     
  }
- 
+ .logo{
+     order: 1;
+     font-size: 2.3rem;
+ }
  
  .menu-items li{
      list-style: none;
      margin-left: 1.5rem;
      font-size: 1.3rem;
+     color: rgb(255, 0, 0);
  }
+ .menu-items ul{
+  list-style: none;
+  margin-left: 1.5rem;
+  font-size: 1.3rem;
+  color: rgb(255, 0, 0);
+  }
  
  .navbar a{
-    background-color: rgb(51, 49, 49);
+     color: #444;
      text-decoration: none;
-     font-weight: 900;
-     transition: color 0.2s ease-in-out;
+     font-weight: 500;
+     transition: color 0.3s ease-in-out;
  }
  
  .navbar a:hover{
-    color: rgb(0, 162, 255);
+  color: rgb(0, 162, 255);
+  border-bottom: 2px solid rgb(4, 8, 255);
  }
  
- @media (max-width: 1000px){
-
-    
+ @media (max-width: 760px){
      .navbar{
          opacity: 0.95;
-         box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
      }
  
      .navbar-container input[type="checkbox"],
@@ -124,7 +108,7 @@ body{
      .navbar-container{
          display: block;
          position: relative;
-         height: 200px;
+         height: 70px;
      }
  
      .navbar-container input[type="checkbox"]{
@@ -141,8 +125,8 @@ body{
  
      .navbar-container .hamburger-lines{
          display: block;
-         height: 28px;
-         width: 35px;
+         height: 48px;
+         width: 55px;
          position: absolute;
          top: 20px;
          left: 20px;
@@ -157,8 +141,9 @@ body{
          height: 4px;
          width: 100%;
          border-radius: 10px;
-         background: rgb(255, 255, 255);
-     }
+         background: rgb(255, 254, 254);
+        }
+         
      
      .navbar-container .hamburger-lines .line1{
          transform-origin: 0% 0%;
@@ -177,7 +162,7 @@ body{
      .navbar .menu-items{
          padding-top: 100px;
          background-color: rgb(51, 49, 49);
-         height: 100vh;
+         height: 1000px;
          max-width: 300px;
          transform: translate(-150%);
          display: flex;
@@ -185,7 +170,7 @@ body{
          margin-left: -40px;
          padding-left: 40px;
          transition: transform 0.5s ease-in-out;
-         box-shadow:  5px 0px 10px 0px #aaa;
+         box-shadow:  5px 0px 10px 0px rgb(0, 0, 0);
          overflow: scroll;
      }
  
@@ -193,6 +178,14 @@ body{
          margin-bottom: 1.8rem;
          font-size: 1.1rem;
          font-weight: 500;
+         
+     }
+ 
+     .logo{
+         position: absolute;
+         top: 10px;
+         right: 15px;
+         font-size: 2.5rem;
      }
  
      .navbar-container input[type="checkbox"]:checked ~ .menu-items{
@@ -213,11 +206,12 @@ body{
  
  }
  
- @media (max-width: 500px){
+ /* @media (max-width: 500px){
      .navbar-container input[type="checkbox"]:checked ~ .logo{
          display: none;
      }
- }
+ } */
+
 
 
 
@@ -235,8 +229,9 @@ nav ul{
 }
 
 nav li{
-    width: 14.2%;
+    width: 150px;
     text-align: center;
+    
 }
 
 
@@ -253,18 +248,23 @@ nav a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     border-bottom: 2px solid transparent;
-    padding: 15px 25px;
+    padding: 22px 25px;
     
 }
 
 nav a:hover{
     color: rgb(0, 162, 255);
-    border-bottom: 2px solid rgb(4, 8, 255);
+    border-bottom: 5px solid rgb(4, 8, 255);
     
+} 
+
+nav .lien{
+  color: rgb(255, 255, 255);
 }
 
-
-
+.p.lien{
+  height: 70px;
+}
 .a{
     color: #ffffff;
 }
@@ -283,17 +283,7 @@ a:hover{
 
 
 
-
-
-
-
-
 /*                                                       --------------------------------------PAGE ACCUEIL--------------------------------------*/
-
-
-
-
-
 
 .image-baniere{
     overflow: hidden;

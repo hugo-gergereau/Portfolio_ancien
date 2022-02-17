@@ -71,7 +71,7 @@
             </div>
             <ul class="menu-items">
                 <li>
-                    <p class="lien-nom">HUGO GERGEREAU</p>
+                    <p class="liens">HUGO GERGEREAU</p>
                 </li>
                 <li><a class="lien" href="index.html">Accueil</a></li>
                 <li><a class="lien" href="cv.html">Mon Cv</a></li>
