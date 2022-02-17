@@ -475,7 +475,7 @@ a:hover{
 .CV {
     width: 17.5cm; 
     height: 21.5cm;
-    margin-top: -1cm;
+    margin-top: 10px;
 }
 
 
@@ -520,7 +520,7 @@ h1{
 .situation-pro-1 {
     margin-left: 0;
     display: flex;
-    margin-top:  0%;
+    margin-top:  10%;
     width: 13cm;
     height:18.7cm;
     justify-content: center;
@@ -535,7 +535,7 @@ h1{
 
 .situation-pro-2 {
     display: flex;
-    margin-top:  0%;
+    margin-top:  10%;
     width: 13cm;
     height:18.7cm;
     margin-left: 0%;   
