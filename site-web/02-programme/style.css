@@ -63,7 +63,7 @@ body{
  .menu-items{
      order: 2;
      display: flex;
-     
+      text-align: center;
  }
  .logo{
      order: 1;
@@ -483,6 +483,7 @@ a:hover{
 .INFO-CV{
     font-size: 35px;
     margin-top: -0cm;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -491,6 +492,37 @@ a:hover{
 /*                                                       --------------------------------------MON LABOS--------------------------------------*/
 
 
+.titre-tableau{
+  margin-top:10%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+
+.ligne{
+  margin-left: 20px;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin-top: 2%;
+    width: 30%;
+    font-size: 150%;
+    justify-content: center;
+    text-align: center;
+}
+td /* Mettre une bordure sur les td ET les th */
+{
+  
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 120px;
+  }
+
+th{
+  border: 1px solid rgb(255, 255, 255);
+  
+}
 
 
 h1{
