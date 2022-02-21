@@ -48,10 +48,7 @@
         $mail->setFrom('serveur.hugo.gergereau@gmail.com', 'no-reply'); // email de l envoyeur
         $mail->Subject = 'mail coucou';
         $mail->addAddress("serveur.hugo.gergereau@gmail.com"); //email Ã  envoyer ici $email est poser------------------
-        // $mail->AddEmbeddedImage('src/images/logo-insta-1.jpg', 'logo_2u');
-        // $mail->AddEmbeddedImage('src/images/linkedin.jpg', 'logo_3u');
-        // $mail->AddEmbeddedImage('src/images/twitter.jpg', 'logo_4u');
-        // $mail->AddEmbeddedImage('src/images/facebook.jpg', 'logo_5u');
+        
         $mail->MsgHTML('message de ' . $_POST['nom'] . ' ' . $_POST['prenom'] . ' ' . $_POST['objet'] . ' ' . $_POST['email'] . ' ' . $_POST['message'] . '
                 ');
         $mail->Send();
@@ -71,7 +68,7 @@
             </div>
             <ul class="menu-items">
                 <li>
-                    <p class="liens">HUGO GERGEREAU</p>
+                    <p class="lien-nom">HUGO GERGEREAU</p>
                 </li>
                 <li><a class="lien" href="index.html">Accueil</a></li>
                 <li><a class="lien" href="cv.html">Mon Cv</a></li>
