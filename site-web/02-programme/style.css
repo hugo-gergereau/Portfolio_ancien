@@ -13,15 +13,59 @@ body{
 }
 
 
-/*                                                --------------------------------------RESPONSIVE--------------------------------------  */
+/*                                                --------------------------------------FOOTER--------------------------------------  */
 
+footer {
+  margin-top:250px;
+  width: 100%;
+  height: 200px;
+  background: rgb(51, 49, 49);
+  position: relative;
+  bottom: 0px;
+  box-shadow: 0px 10px 45px 10px rgb(0, 0, 0);
+  z-index: 100;
+  
+  }
+.footer2{
+  top: 300px;
+}
+  .contianer-footer{
+    position: relative;
+    top: 50px;
+    width: 900px;
+    display: flex;
+    left: 55%;
+    transform: translate(-50%);
+    color: black;
+  }
 
-
-
+  .lien-footer {
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: black 0.5em 0.5em 0.5em;
+  }
+  .copyright{
+    display: flex;
+    position: absolute;
+    bottom:15%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+    
+  }
+  .bar {
+    background: black;
+    width: 2px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
  /*                                                --------------------------------------MENU DE NAVIGATION ENTRE LES PAGES--------------------------------------  */
 
 
+ 
  *,
  *::after,
  *::before{
@@ -282,15 +326,7 @@ a:hover{
 
 
 /*                                                       --------------------------------------FOOTER-------------------------------------*/
-.box-footer{
-    background-color: rgb(39, 35, 35);
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    bottom: 0px;
-    top: 900px;
-    
-}
+
 
 
 
@@ -325,12 +361,13 @@ a:hover{
 
 
 .texte-accueil{
-  margin-left: 1%;
+  margin-left: 3%;
   display: flex;
   position: relative;
-  font-size: 30px;
+  font-size: 27px;
   text-shadow: black 0.1em 0.1em 0.2em;
-  margin-top: 10%;
+  margin-top: 8%;
+ 
 }
 
 
@@ -362,7 +399,8 @@ a:hover{
     justify-content: space-between;
     left: 75%;
     margin-top: 5%;
-    
+    border-radius: 15px !important;
+    border: black solid 3px;
   
 }
 
@@ -569,19 +607,21 @@ h1{
     width: 13cm;
     height:18.7cm;
     justify-content: center;
+    margin-bottom: 60px;
 }
 
 .info-situation-pro-1{
     margin: 0;
     font-size: 20px;
-    width: 550px 
+    width: 550px;
+    margin-bottom: 200px;
 }
 
 
 .situation-pro-2 {
     display: flex;
-    margin-top:  10%;
-    
+    margin-top:  9%;
+    margin-bottom: 60px;
     width: 13cm;
     height:18.7cm;
       
@@ -590,7 +630,8 @@ h1{
 .info-situation-pro-2{
     margin: 0;
     font-size: 20px;
-    width: 600px  
+    width: 600px;  
+    margin-bottom: 200px;
 }
 
 .box-parent{   
